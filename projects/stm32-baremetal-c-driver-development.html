@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html style="--bs-font-sans-serif: &quot;Raleway&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;--bs-font-monospace: &quot;Raleway&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;">
+
+<head>
+    <meta charset="utf-8">
+<style>
+        /* CSS for the typewriter animation */
+        #typewriter-text {
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            overflow: hidden;
+            border-right: .15em solid orange;
+            white-space: nowrap;
+            letter-spacing: .15em;
+            animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+        }
+        
+        /* Keyframes for the animation */
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+        
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: orange; }
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Project Page - Emasi Collins</title>
+    <meta property="og:type" content="website">
+    <meta name="description" content="My name is Collins Emasi and I believe that curiosity is what gave life to the cat. I'm passionate about infusing intelligence into embedded systems and solving real world problems.">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="../assets/img/1-2.png?h=1dcfb03724aac90142d3fe6ed2bb2026">
+    <link rel="icon" type="image/png" sizes="40x40" href="../assets/img/1-1.png?h=144c26a93bbc4310ac1fd6de026aa081">
+    <link rel="icon" type="image/png" sizes="40x40" href="../assets/img/1-1.png?h=144c26a93bbc4310ac1fd6de026aa081">
+    <link rel="icon" type="image/png" sizes="180x180" href="../assets/img/1-2.png?h=1dcfb03724aac90142d3fe6ed2bb2026">
+    <link rel="icon" type="image/png" sizes="180x180" href="../assets/img/1-2.png?h=1dcfb03724aac90142d3fe6ed2bb2026">
+    <link rel="icon" type="image/png" sizes="512x512" href="../assets/img/Collins%20Emasi%20Favicon%20(512%20×%20512%20px).png?h=10be376b9a98a59ed32f7051b544066e">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css?h=13def284d3f39b9d2387182800ff791d">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="../assets/css/Articles-Cards-images.css?h=4f3cfa46e40e236365345fc77963f4b8">
+    <link rel="stylesheet" href="../assets/css/Contact-Details-icons.css?h=beb8fdfb0acf89e892648474af65f5c5">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="../assets/css/Responsive-Youtube-Embed.css?h=9e8e36c2a2b26ecd6406a4d1a2153705">
+    <link rel="stylesheet" href="../assets/css/untitled.css?h=35478c732026b800bf46d7551ebdab29">
+<script>
+        // JavaScript to trigger the animation after the page loads
+        document.addEventListener('DOMContentLoaded', function () {
+            const typewriterText = document.getElementById('typewriter-text');
+            const text = typewriterText.textContent.trim();
+            typewriterText.textContent = ''; // Clear the text
+            let index = 0;
+
+            function type() {
+                if (index < text.length) {
+                    typewriterText.textContent += text.charAt(index);
+                    index++;
+                    setTimeout(type, 50); // Adjust typing speed here (in milliseconds)
+                }
+            }
+
+            type(); // Start the typing animation
+        });
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient" style="background: white;">
+        <div class="container"><a class="navbar-brand logo" href="../index.html" style="color: var(--bs-gray-dark);font-weight: bold;">Emasi Collins</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav-2">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html" style="color: var(--bs-gray-dark);">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../projects.html" style="color: var(--bs-gray-dark);">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../blogs.html" style="color: var(--bs-gray-dark);">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../cv.html" style="color: var(--bs-gray-dark);">CV</a></li>
+                </ul><a class="btn btn-primary" role="button" data-bs-target="contact.html" href="../contact.html">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+    <main class="page project-page">
+        <section class="portfolio-block project">
+            <div class="container">
+                <!-- Start: portfolio heading -->
+                <div class="heading">
+                    <h2>stm32&nbsp;<span class="underline">Baremetal c driver</span>&nbsp;development</h2>
+                </div><!-- End: portfolio heading -->
+                <div class="image" style="background-image:url(&quot;../assets/img/projects/stm32/1.jpg?h=d8679792abe156f345d531e0af9daea0&quot;);"></div>
+                <div class="row">
+                    <div class="col-12 col-md-6 offset-md-1 info">
+                        <h3><span class="underline">Introduction</span></h3>
+                        <p>This repository contains examples and documentation for bare metal programming of the STM32F401RE microcontroller. Bare metal programming refers to writing code for microcontrollers without the use of an operating system or a higher level framework. This allows for more direct control over the hardware and can be useful for real-time systems or resource-constrained environments.</p>
+                        <h3>Getting&nbsp;<span class="underline">Started</span>&nbsp;</h3>
+                        <p><a href="https://github.com/collins-emasi/Bare-metal-embedded-systems-STM32F401RE" target="_blank">These Instructions</a>&nbsp;will guide you through setting up the development environment and running the examples in this repository.</p>
+                        <p>When working on bare metal embedded systems, low level control is critical, for example, to avoid unexpected behaviors caused by missing some important step or misconfiguring some peripheral, which could lead to hard-to-diagnose bugs. Therefore, it is important to consult the chip's reference manual and the datasheet before start working with the microcontroller.</p>
+                        <h3><span class="underline">Contributing</span></h3>
+                        <p>We welcome contributions to this repository! If you have any improvements or bugfixes, please open a pull request.</p>
+                    </div>
+                    <div class="col-12 col-md-3 offset-md-1 meta">
+                        <div class="tags"><span class="meta-heading">Tags</span><a href="#">Bare-metal prgramming</a><a href="#">STM32 CubeIDE</a><a href="#">Embedded Software</a><a href="#">Embedded C</a><span class="meta-heading">Date</span><span>2023</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-projects">
+                <h3 class="text-center">More&nbsp;<span class="underline">Projects</span></h3>
+                <div class="row gallery">
+                    <div class="col-md-4 col-lg-3">
+                        <div class="item"><a href="hardware-design-with-kicad.html"><img class="img-fluid scale-on-hover" src="../assets/img/projects/1.1.png?h=13036acc4517a72a042e927607d6c63e"></a></div>
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                        <div class="item"><a href="hardware-design-with-altium-designer.html"><img class="img-fluid scale-on-hover" src="../assets/img/projects/4-2.png?h=67c2e0963b5e80402fe411626aa3ec8c" width="261" height="160"></a></div>
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                        <div class="item"><a href="finding-amy.html"><img class="img-fluid scale-on-hover" src="../assets/img/projects/5.png?h=a8cb5a843cb637fe0021cfd8973fc3b8"></a></div>
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                        <div class="item"><a href="tiny-ranger-project.html"><img class="img-fluid scale-on-hover" src="../assets/img/projects/6.png?h=937597acd110d2a59f877c95dec2cb67"></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="links"><a href="#">About me</a><a href="#">Contact me</a><a href="#">Projects</a></div>
+            <div class="social-icons"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram-outline"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a></div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="../assets/js/Lightbox-Gallery.js?h=64eb55ccbc6ead5e91ebe308caacba6e"></script>
+    <script src="../assets/js/theme.js?h=aeddb9c3ce5d77b8278c91c07acf30ad"></script>
+</body>
+
+</html>
