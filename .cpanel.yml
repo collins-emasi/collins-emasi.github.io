@@ -4,6 +4,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/emasicol/public_html/
     - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R projects $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp blogs.html $DEPLOYPATH
     - /bin/cp contact.html $DEPLOYPATH
