@@ -152,3 +152,7 @@ html {
   animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
 }
 
+.cd-headline .blc {
+  font-size: 40px;
+}
+
