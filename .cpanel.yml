@@ -7,7 +7,6 @@ deployment:
     - /bin/cp -R projects $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp blogs.html $DEPLOYPATH
-    - /bin/cp contact.html $DEPLOYPATH
     - /bin/cp cv.html $DEPLOYPATH
     - /bin/cp projects.html $DEPLOYPATH
     - /bin/cp sitemap.xml $DEPLOYPATH
